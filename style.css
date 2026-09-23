@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spring {
+    height: 100vh;
+    background-image: url("images/spring.jpg");
+    background-size: 105vh 125vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: width 2s, height 4s;
+}
+
+.summer {
+    height: 100vh;
+    background-image: url("images/summer.jpeg");
+    background-size: 105vh 125vh;
+    top: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.winter {
+    height: 100vh;
+    background-image: url("images/winter.jpg");
+    background-size: 105vh 125vh;
+    top: 300%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.fall {
+    height: 100vh;
+    background-image: url("images/fall.jpg");
+    background-size: 105vh 125vh;
+    top: 200%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/*
+.view1 {
+    height: 100vh;
+    background-image: url("images/wall.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.view2 {
+    height: 100vh;
+    background-image: url("images/wall.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.view3 {
+    height: 100vh;
+    background-image: url("images/wall.jpg");
+    background-size: cover;
+    background-position: center;
+}
+    */
+
+.seasons {
+    height: 400vh;
+    background-image: url("images/gradient.jpg");
+    background-color: white;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+}
+
+.window {
+    width: 1000px;
+    height: 800px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("images/window.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10;
+    transition: width 2s, height 2s;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    top: 20%;
+    color: white;
+}
+
+h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    color: white;
+}
+
+h3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    color: white;
+}
+
+h6 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px 30px;
+    color: white;
+}
+
+h5 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 36%;
+    position: fixed;
+    padding: 10px;
+    background-color: whitesmoke;
+    transform: translateY(200px);
+}
+
+.view1 h5 {
+    transform: translateX(10%);
+    transform: translateY(-360px);
+    position: absolute;
+    color: deeppink;
+}
+
+.view2 h5 {
+    transform: translateX(50px);
+    transform: translateY(320px);
+    position: absolute;
+    color: teal;
+}
+
+.view3 h5 {
+    transform: translateX(50px);
+    transform: translateY(1020px);
+    position: absolute;
+    color: orangered;
+}
+
+.view4 h5 {
+    transform: translateX(50px);
+    transform: translateY(1720px);
+    position: absolute;
+    color: darkblue;
+}
+
+.flower1 img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 50%;
+    top: 20%;
+    transform: scale(2);
+}
+
+.flower2 img {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 60%;
+    top: 43%;
+    transform: scale(2.5);
+}
+
+.flower3 img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 60%;
+    top: 69%;
+    transform: scale(2);
+}
+
+.flower4 img{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 60%;
+    top: 96%;
+    transform: scale(3);
+}
+/*
+.spring:hover {
+    width: 300px;
+}
+
+.summer:hover {
+    width: 300px;
+}
+
+.fall:hover {
+    width: 300px;
+}
+
+.winter:hover {
+    width: 300px;
+}
+
+.view1 {
+    height: 100vh;
+    background-image: url(images/blinds.png);
+    background-size: 192vh 170vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+.view2 {
+    height: 100vh;
+    background-image: url(images/blinds.png);
+    background-size: 192vh 170vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+.view3 {
+    height: 100vh;
+    background-image: url(images/blinds.png);
+    background-size: 192vh 170vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+.view4 {
+    height: 100vh;
+    background-image: url(images/blinds.png);
+    background-size: 192vh 170vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+*/
+
+.window:hover {
+    height: 100vh;
+    background-image: url(images/blinds.png);
+    background-size: 200vh 170vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition: width 2s, height 2s;
+}
+
